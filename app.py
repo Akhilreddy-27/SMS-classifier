@@ -44,8 +44,8 @@ def transform_text(text):
 # ==============================
 # 📌 Load Models
 # ==============================
-tfidf = pickle.load(open(r"C:\Users\akhil\sms-class\vectorizer (1).pkl", 'rb'))
-model = pickle.load(open(r"C:\Users\akhil\sms-class\model (1).pkl", 'rb'))
+tfidf = pickle.load(open("vectorizer.pkl", 'rb'))
+model = pickle.load(open("model.pkl", 'rb'))
 
 # ==============================
 # 🎨 Custom CSS
